@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BudgetApp.BudgetEntryPage"
+             Title=" Budget Entry Page ">
+    <StackLayout Margin="10,35,10,10">
+        <!-- On clicking AddBudget Button This page invokes -->
+        
+        <Editor x:Name="budgetAmountEditor"
+                Placeholder="Enter Budget Target Amount"
+                Text="{Binding Amount}"
+                HeightRequest="50"/>
+        <Editor x:Name="budgetMonthEditor"
+                Placeholder="mm-yyyy"
+                Text="{Binding Month}"
+                HeightRequest="50"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Save"
+                    Clicked="OnSaveButtonClicked" />
+            
+            
+        </Grid>
+    </StackLayout>
+</ContentPage>

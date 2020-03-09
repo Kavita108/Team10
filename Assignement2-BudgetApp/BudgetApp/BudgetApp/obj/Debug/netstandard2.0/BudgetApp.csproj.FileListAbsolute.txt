@@ -1,0 +1,15 @@
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\bin\Debug\netstandard2.0\BudgetApp.deps.json
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\bin\Debug\netstandard2.0\BudgetApp.dll
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\bin\Debug\netstandard2.0\ref\BudgetApp.dll
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\bin\Debug\netstandard2.0\BudgetApp.pdb
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\BudgetApp.csprojAssemblyReference.cache
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\BudgetApp.AssemblyInfoInputs.cache
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\BudgetApp.AssemblyInfo.cs
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\BudgetApp.dll
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\ref\BudgetApp.dll
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\BudgetApp.pdb
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\BudgetEntryPage.xaml.g.cs
+C:\Users\sinha\source\repos\BudgetApp\BudgetApp\BudgetApp\obj\Debug\netstandard2.0\ExpenseEntryPage.xaml.g.cs
