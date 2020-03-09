@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BudgetApp.MainPage">
+
+    <StackLayout Margin="10,35,10,10">
+        <!-- Place new controls here -->
+        <Label Text=" Welcome to BudgetApp!" FontSize="30"
+           HorizontalOptions="Center"
+           TextColor="#102474" TextDecorations="Underline" FontAttributes="Italic" />
+    
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="BudgetsListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Button Text="{Binding .}" Clicked="OnBudgetClicked"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Grid.Column="1"
+                    Text="Add Budget"
+                    VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+                    Clicked="OnAddBudgetButtonClicked"/>
+            </Grid>
+    </StackLayout>
+
+</ContentPage>
