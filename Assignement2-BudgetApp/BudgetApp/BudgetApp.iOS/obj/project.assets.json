@@ -1022,11 +1022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.iOS\\BudgetApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.iOS\\BudgetApp.iOS.csproj",
       "projectName": "BudgetApp.iOS",
-      "projectPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.iOS\\BudgetApp.iOS.csproj",
+      "projectPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.iOS\\BudgetApp.iOS.csproj",
       "packagesPath": "C:\\Users\\sinha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1047,8 +1047,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
-              "projectPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj"
+            "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
+              "projectPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj"
             }
           }
         }

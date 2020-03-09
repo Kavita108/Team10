@@ -22,7 +22,8 @@ namespace BudgetApp
             var budgets = new List<string>();
             foreach(string file in files)
             {
-                budgets.Add(Path.GetFileName(file));
+                var filename = Path.GetFileName(file);
+                budgets.Add(filename.Split('.')[0]);
             }
 
             BudgetsListView.ItemsSource = budgets;
@@ -38,7 +39,7 @@ namespace BudgetApp
         async void OnBudgetClicked(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            var filename = button.Text;
+            var filename = button.Text + ".txt";
             var budgetFileName = Path.Combine(App.FolderPath, filename);
             string[] lines = File.ReadAllLines(budgetFileName);
             string budgetDetails = lines[0];

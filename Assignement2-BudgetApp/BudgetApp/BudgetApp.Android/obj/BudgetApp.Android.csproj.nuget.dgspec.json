@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj": {}
+    "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj": {
+    "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj",
         "projectName": "BudgetApp.Android",
-        "projectPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj",
+        "projectPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.Android\\BudgetApp.Android.csproj",
         "packagesPath": "C:\\Users\\sinha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp.Android\\obj\\",
+        "outputPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
-                "projectPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj"
+              "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
+                "projectPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
+    "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
+        "projectUniqueName": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
         "projectName": "BudgetApp",
-        "projectPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
+        "projectPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\BudgetApp.csproj",
         "packagesPath": "C:\\Users\\sinha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinha\\source\\repos\\BudgetApp\\BudgetApp\\BudgetApp\\obj\\",
+        "outputPath": "C:\\Users\\sinha\\OneDrive\\Documents\\GitHub\\Team10\\Assignement2-BudgetApp\\BudgetApp\\BudgetApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
