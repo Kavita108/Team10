@@ -5,18 +5,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="BudgetApp.BudgetEntryPage"
-             Title=" Budget Entry Page ">
+             Title=" Budget Entry Page "
+             BackgroundColor="LightGray">
     <StackLayout Margin="10,35,10,10">
         <!-- On clicking AddBudget Button This page invokes -->
         
         <Editor x:Name="budgetAmountEditor"
                 Placeholder="Enter Budget Target Amount"
                 Text="{Binding Amount}"
-                HeightRequest="50"/>
+                HeightRequest="50"
+                Keyboard="Numeric"/>
         <Editor x:Name="budgetMonthEditor"
                 Placeholder="mm-yyyy"
                 Text="{Binding Month}"
-                HeightRequest="50"/>
+                HeightRequest="50" />
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -24,8 +26,6 @@
             </Grid.ColumnDefinitions>
             <Button Text="Save"
                     Clicked="OnSaveButtonClicked" />
-            
-            
         </Grid>
     </StackLayout>
 </ContentPage>

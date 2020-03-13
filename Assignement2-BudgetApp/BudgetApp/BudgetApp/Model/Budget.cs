@@ -7,7 +7,9 @@ namespace BudgetApp.Model
     public class Budget
     {
         public string Filename { get; set; }
-        public int Amount { get; set; }
+        public decimal Amount { get; set; }
         public string Month { get; set; }
+
+        public IList<Expense> Expenses { get; set; }
     }
 }

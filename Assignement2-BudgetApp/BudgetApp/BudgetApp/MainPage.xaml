@@ -4,12 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="BudgetApp.MainPage">
+             x:Class="BudgetApp.MainPage"
+             BackgroundColor="LightGray">
 
     <StackLayout Margin="10,35,10,10">
         <!-- Place new controls here -->
         <Label Text=" Welcome to BudgetApp!" FontSize="30"
-           HorizontalOptions="Center"
+           HorizontalOptions="Center" 
            TextColor="#102474" TextDecorations="Underline" FontAttributes="Italic" />
     
         <Grid>
@@ -21,7 +22,10 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Button Text="{Binding .}" Clicked="OnBudgetClicked"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="{Binding .}" Clicked="OnBudgetClicked"/>
+                                <Button Text="Delete" ClassId="{Binding .}" Clicked="OnDeleteBudget" HorizontalOptions="FillAndExpand"/>
+                            </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

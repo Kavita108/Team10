@@ -4,19 +4,12 @@ using System.Text;
 
 namespace BudgetApp.Model
 {
-    public enum Category
-    {
-        Grocery,
-        Restaurants,
-        Medical,
-        Travel,
-        Apparels
-    }
-
     public class Expense
     {
         public string Filename { get; set; }
-        public int Amount { get; set; }
-        public Category category { get; set; }
+        public string Name { get; set; }
+        public decimal Amount { get; set; }
+        public string PurchasedDate { get; set; }
+        public string Category { get; set; }
     }
 }

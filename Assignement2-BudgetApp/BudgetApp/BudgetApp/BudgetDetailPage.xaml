@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title=" Budget Detail Page "
+             x:Class="BudgetApp.BudgetDetailPage"
+             BackgroundColor="LightGray">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+"
+                      Clicked="OnAddExpensetButtonClicked" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Spacing="10">
+        <StackLayout Margin="10,35,10,10" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <!-- On clicking AddBudget Button This page invokes -->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Budget:" FontSize="Large"/>
+                <Label Text ="{Binding Amount, StringFormat='{0:c}'}" FontSize="Large"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Month:" FontSize="Large"/>
+                <Label Text="{Binding Month}" FontSize="Large"/>
+            </StackLayout>
+            <Label Text="{Binding Filename}"  IsVisible="False"  x:Name="fileNameLabel"/>
+        </StackLayout>
+        <StackLayout Margin="10,35,10,10" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Label Text="Expenses:" FontSize="Large" TextColor="#1A50D2"/>
+            <ListView x:Name="BudgetDetailView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                        <Label Text="{Binding Name}"/>
+                                        <Label Text="{Binding PurchasedDate}" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand">
+                                        <Label Text="{Binding Amount, StringFormat='{0:c}'}"/>
+                                        <Label Text="{Binding Category}"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label x:Name="ErrorMessage" TextDecorations="Underline" BackgroundColor="Red" FontSize="Medium" TextColor="White"/>
+            <Button Text="Add Expense" BackgroundColor="Blue" Clicked="OnAddExpensetButtonClicked" TextColor="White"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
