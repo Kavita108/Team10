@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              Title=" Budget Detail Page "
              x:Class="BudgetApp.BudgetDetailPage"
-             BackgroundColor="LightGray">
+             BackgroundColor="White">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+"
@@ -40,7 +40,14 @@
                                     </StackLayout>
                                     <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand">
                                         <Label Text="{Binding Amount, StringFormat='{0:c}'}"/>
-                                        <Label Text="{Binding Category}"/>
+                                        <Image Source="{Binding Category}" BackgroundColor="AntiqueWhite">
+                                            <Image.HeightRequest>
+                                                <OnPlatform x:TypeArguments="x:Double">
+                                                    <On Platform="iOS">40</On>
+                                                    <On Platform="Android,Windows">40</On>
+                                                </OnPlatform>
+                                            </Image.HeightRequest>
+                                        </Image>
                                     </StackLayout>
                                 </StackLayout>
                             </ViewCell.View>

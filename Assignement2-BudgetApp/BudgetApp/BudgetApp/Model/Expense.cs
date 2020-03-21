@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace BudgetApp.Model
 {
@@ -10,6 +11,7 @@ namespace BudgetApp.Model
         public string Name { get; set; }
         public decimal Amount { get; set; }
         public string PurchasedDate { get; set; }
-        public string Category { get; set; }
+        public ImageSource Category { get; set; }
+        public string CategoryLabel { get; set; }
     }
 }

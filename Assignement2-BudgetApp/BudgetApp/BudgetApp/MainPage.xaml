@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<!--ContentPage element, with a number of name spaces defined (xmlns).  We also see a class defined, and this is the class that will be in the associated code-behind file -->
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -8,13 +9,14 @@
              BackgroundColor="LightGray">
 
     <StackLayout Margin="10,35,10,10">
-        <!-- Place new controls here -->
+        <!-- Display single line text -->
         <Label Text=" Welcome to BudgetApp!" FontSize="30"
            HorizontalOptions="Center" 
            TextColor="#102474" TextDecorations="Underline" FontAttributes="Italic" />
     
         <Grid>
             <Grid.ColumnDefinitions>
+                <!-- Specifying one row/column with * will cause it to fill the available space-->
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
@@ -35,7 +37,7 @@
                     Text="Add Budget"
                     VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
                     Clicked="OnAddBudgetButtonClicked"/>
-            </Grid>
+        </Grid>
     </StackLayout>
 
 </ContentPage>

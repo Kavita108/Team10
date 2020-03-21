@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -60,7 +61,8 @@ namespace BudgetApp
                 expense.Name = expenseParts[0];
                 expense.Amount = Decimal.Parse(expenseParts[1]);
                 expense.PurchasedDate = expenseParts[2];
-                expense.Category = expenseParts[3];
+                expense.Category = ImageSource.FromResource("BudgetApp.Assets." + expenseParts[3] + ".png",
+                    typeof(Expense).GetTypeInfo().Assembly);
                 expense.Filename = budget.Filename;
                 budget.Expenses.Add(expense);
             }

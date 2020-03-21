@@ -25,7 +25,7 @@ namespace BudgetApp
             {
                 File.AppendAllText(expense.Filename, Environment.NewLine);
                 var purchasedDate = expense.PurchasedDate.Split(' ')[0];
-                File.AppendAllText(expense.Filename, expense.Name + " " + expense.Amount + " " + purchasedDate + " " + expense.Category);
+                File.AppendAllText(expense.Filename, expense.Name + " " + expense.Amount + " " + purchasedDate + " " + expense.CategoryLabel);
             }
             await Navigation.PopAsync();
         }

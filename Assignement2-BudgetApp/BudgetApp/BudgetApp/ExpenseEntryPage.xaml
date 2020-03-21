@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="BudgetApp.ExpenseEntryPage"
              Title="Budget Entry Page"
-             BackgroundColor="LightGray">
+             BackgroundColor="White">
     <StackLayout Margin="10,35,10,10">
         <Editor x:Name="name"
                 Text="{Binding Name}"
@@ -18,7 +18,7 @@
                 Placeholder="Amount:-"
                 HeightRequest="50"
                 Keyboard="Numeric"/>
-        <Picker x:Name="picker" Title="Select a Category"  SelectedItem="{Binding Category}">
+        <Picker x:Name="picker" Title="Select a Category"  SelectedItem="{Binding CategoryLabel}">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Home</x:String>
