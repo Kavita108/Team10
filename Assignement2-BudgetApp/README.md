@@ -1,8 +1,10 @@
-# :musical_note: BudgetApp :musical_note:
+# :iPhone: BudgetApp :moneybag:
 
-[Assignment Video](https://youtu.be/wzt5A9Q-p7Q)
+#Link
+[Assignment Video](https://youtu.be/eeJpoluFKis)
 
 ## Index
+#This Budget App is a simple Xamarin.Forms application to set the budget and track the expenses of an individual.
 
 ## How to set up the project
 * Clone code
@@ -13,7 +15,7 @@
 ## What you can do with this budget/expense tracking App
 * Create monthly budget
 * View all past and current budgets
-* Add expenses to a monthly budget
+* Add and view new expenses to a monthly budget
 
 ## Project object 
 
@@ -22,6 +24,6 @@ Building Object oriented Xamarin App
 
 
 ## Attribute
-*  [Music icon](https://icons8.com/icons/set/music) icon by [Icons8](https://icons8.com) 
+*  [App icon](https://icons8.com/icons/set) icon by [Icons8](https://icons8.com) 
 
 
